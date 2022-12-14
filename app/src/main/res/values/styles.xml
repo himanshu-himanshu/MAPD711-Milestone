@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="inputField" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#bbbbbb</item>
+        <item name="android:background">#201A30</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

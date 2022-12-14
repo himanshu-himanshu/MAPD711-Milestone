@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201A30"
+    android:gravity="center"
+    android:paddingHorizontal="20sp"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/group" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60sp"
+            android:elevation="20sp"
+            android:fontFamily="@font/alex"
+            android:gravity="center"
+            android:letterSpacing=".1"
+            android:paddingVertical="5dp"
+            android:text="KwizApp"
+            android:textColor="#0CF4E3"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autoSizeTextType="uniform"
+            android:letterSpacing="0.02"
+            android:padding="5sp"
+            android:text="Welcome to our app, KwizApp is designed to practice your coding knowledge through different assessments."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90sp"
+            android:autoSizeTextType="uniform"
+            android:letterSpacing="0.02"
+            android:padding="5sp"
+            android:text="Developed by Himanshu and Gurminder using Kotlin and Firebase. You can log in into the app ans start testing your knowledge."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="90sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/alex"
+            android:letterSpacing="0.03"
+            android:padding="5sp"
+            android:text="Made with ♡"
+            android:gravity="center"
+            android:textColor="#FF76E8"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+</RelativeLayout>

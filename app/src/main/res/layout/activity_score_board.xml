@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201A30"
+    android:gravity="center"
+    android:paddingHorizontal="20sp"
+    tools:context=".ScoreBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/score" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:elevation="20sp"
+            android:fontFamily="@font/alex"
+            android:gravity="center"
+            android:letterSpacing=".1"
+            android:paddingVertical="5dp"
+            android:text="Scoreboard"
+            android:textColor="#0CF4E3"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:autoSizeTextType="uniform"
+            android:letterSpacing="0.02"
+            android:padding="5sp"
+            android:text="Hi, Himanshu have a look on your previous scores."
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/htmlText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/scorecard"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:padding="15sp"
+            android:text="HTML: 10"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cssText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/scorecard"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:padding="15sp"
+            android:text="CSS: 10"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/scorecard"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:padding="15sp"
+            android:text="Javascript: 10"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/androidText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/scorecard"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:padding="15sp"
+            android:text="Android: 10"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>
